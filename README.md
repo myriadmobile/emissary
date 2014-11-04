@@ -11,7 +11,7 @@ Segments JavaScript/CoffeeScript code to specific classes, which will only be bo
 
 Usage
 -------
-Emissary is meant to be used as a boilerplate. As such, copying the raw contents of specific filetype you are looking to use ([CoffeeScript]() or [JavaScript]()) and adding the source to a file of your choice in your project.
+Emissary is meant to be used as a boilerplate. As such, copying the raw contents of specific filetype you are looking to use ([CoffeeScript](https://github.com/myriadmobile/emissary/blob/master/dist/emissary.coffee) or [JavaScript](https://github.com/myriadmobile/emissary/blob/master/dist/emissary.js)) and adding the source to a file of your choice in your project.
 
 If you would like to keep a record of this as a component, you can add it via Bower.
 
