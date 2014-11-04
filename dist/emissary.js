@@ -16,7 +16,7 @@
     home: {
       init: function() {
 
-        /* body.bndr-home functionality */
+        /* body.em-home functionality */
       }
     }
   };
@@ -24,15 +24,17 @@
     fire: function(func, funcname, args) {
       var namespace;
       namespace = Emissary;
-      funcname = funcname !== void 0 ? 'init' : funcname;
+      funcname = funcname != null ? funcname : 'init';
       if (func !== '' && namespace[func] && typeof namespace[func][funcname] === 'function') {
         return namespace[func][funcname](args);
       }
     },
     loadEvents: function() {
       UTIL.fire('common');
-      return $.each(document.body.className.replace(/bndr-/g, '').replace(/-/g, '_').split(/\s+/), function(i, classname) {
-        return UTIL.fire(classname);
+      return $.each(document.body.className.split(/\s+/), function(i, classname) {
+        if (classname.indexOf("em-") > -1) {
+          return UTIL.fire(classname.replace(/em-/g, '').replace(/-/g, '_'));
+        }
       });
     }
   };

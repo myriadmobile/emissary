@@ -3,27 +3,40 @@ Emissary
 
 Introduction
 -------
-
+Emissary is a CoffeeScript (and subsequently JavaScript) bootstrap project to remove the overhead of starting a new project. This project allows developers to leverage classes to bind common functionality to the DOM.
 
 Features
 -------
-
+Segments JavaScript/CoffeeScript code to specific classes, which will only be bound to the DOM on pages in which has the class attributed to the block.
 
 Usage
 -------
+Emissary is meant to be used as a boilerplate. As such, copying the raw contents of specific filetype you are looking to use ([CoffeeScript]() or [JavaScript]()) and adding the source to a file of your choice in your project.
 
+If you would like to keep a record of this as a component, you can add it via Bower.
+
+```
+bower install emissary=https://github.com/myriadmobile/emissary#^0.1.0 --save-dev
+```
+
+After getting the Bower component installed, you can follow the instructions for the raw contents above.
 
 Documentation
 -------
+Emissary is body.class based, and as such body.classes will be converted to match Emissary Obj methods.
 
+### body.class namespace
+Emissary uses a class namespace (of sorts) to make sure there are no collisions between binding classes and style classes. For binding classes use **em-** as a prefix. This will ensure that the class in question is parsed by Emissary and bound accordingly. 
+
+### body.class parsing
+When parsing body classes only classes with the namespace (mentioned above) will be parsed. After parsing and removing the namespace, Emissary will convert all hyphens (-) to underscores (_). That means that a class of "em-about-us" will be parsed into "about_us", this is the string should correspond to a nested object in Emissary. The ```init``` function, by default, will be run. You can use the ```this``` keyword to call other methods in the Emissary nested object.
+
+### body.class limits
+There are no limits when it comes to the amount of classes that Emissary will parse off of a body tag.
 
 Dependencies
 -------
-
-
-Roadmap
--------
-
+Emissary has been designed to require jQuery. Removing (or modifying) the jQuery dependency is as easy as changing the global passed into the anonymous function, and updating the default array iteration on line 26 to match either native JS or a different library.
 
 Bugs and Feedback
 -------
