@@ -1,5 +1,5 @@
 # Emissary
-# v0.0.1 (11.03.2014)
+# v0.0.1 (11.04.2014)
 # Evan Hammond <ehammond@myriadmobile.com>
 
 (($) ->
@@ -13,7 +13,7 @@
     # Run on pages with body.bndr-home
     home: {
       init: () ->
-        ### Home functionality ###
+        ### body.bndr-home functionality ###
     }
   }
 

@@ -1,6 +1,6 @@
 /*!
 * Emissary
-* v0.0.1 (11.03.2014)
+* v0.0.1 (11.04.2014)
 * Evan Hammond <ehammond@myriadmobile.com>
 */
 
@@ -16,7 +16,7 @@
     home: {
       init: function() {
 
-        /* Home functionality */
+        /* body.bndr-home functionality */
       }
     }
   };
