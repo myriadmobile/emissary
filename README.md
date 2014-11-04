@@ -52,6 +52,7 @@ FAQ
 -------
 > Why Emissary?
 
+Emissary makes it easy to bind custom code blocks to individual body.classes. This helps developers keep code DRY, and allows for very easy additions to available javascript without needing to write extra code bind to bind.
 
 License
 --------
