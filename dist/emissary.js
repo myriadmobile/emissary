@@ -1,6 +1,6 @@
 /*!
 * Emissary
-* v0.0.1 (11.04.2014)
+* v0.1.1 (11.04.2014)
 * Evan Hammond <ehammond@myriadmobile.com>
 */
 

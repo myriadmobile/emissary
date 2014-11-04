@@ -1,6 +1,6 @@
 {
   "name": "Emissary",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "CoffeeScript boilerplate to bind JS blocks to body classes",
   "main": "src/emissary.coffee",
   "scripts": {
