@@ -1,0 +1,25 @@
+{
+  "name": "Emissary",
+  "version": "0.0.1",
+  "description": "CoffeeScript boilerplate to bind JS blocks to body classes",
+  "main": "src/emissary.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/myriadmobile/emissary.git"
+  },
+  "keywords": [
+    "CoffeeScript",
+    "boilerplate",
+    "binder"
+  ],
+  "author": "Evan Hammond <ehammond@myriadmobile.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-contrib-concat": "^0.5.0"
+  }
+}
