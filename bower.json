@@ -1,0 +1,23 @@
+{
+  "name": "Emissary",
+  "version": "0.1.0",
+  "homepage": "https://github.com/myriadmobile/emissary",
+  "authors": [
+    "Evan Hammond <ehammond@myriadmobile.com>"
+  ],
+  "main": "src/emissary.coffee",
+  "keywords": [
+    "CoffeeScript",
+    "boilerplate",
+    "binder"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

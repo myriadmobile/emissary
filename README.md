@@ -16,7 +16,7 @@ Emissary is meant to be used as a boilerplate. As such, copying the raw contents
 If you would like to keep a record of this as a component, you can add it via Bower.
 
 ```
-bower install emissary=https://github.com/myriadmobile/emissary#^0.1.0 --save-dev
+bower install emissary=https://github.com/myriadmobile/emissary.git#^0.1.0 --save-dev
 ```
 
 After getting the Bower component installed, you can follow the instructions for the raw contents above.
